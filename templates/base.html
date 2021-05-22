@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'css/bootstrap.min.css') }}">
+<!--    <link rel="stylesheet" href="{{ url_for('static',filename = 'css/style.css') }}">-->
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #77a2b6">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="/">
+      <img src="/static/images/logo/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-center">
+         IT-Маркет Хабр
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="/cohort_amount">Объем продаж</a>
+        <a class="nav-link" href="/cohort_count_customer">Количество клиентов</a>
+        <a class="nav-link" href="/sales_metrics">Основные метрики</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+{% block body %}{% endblock %}
+
+
+<footer class="my-4 pt-3 text-muted text-center text-small">
+    <p class="mb-1">© 2021 IT-Маркет Хабр</p>
+</footer>
+</body>
+</html>

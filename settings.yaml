@@ -1,0 +1,8 @@
+#YAML
+ PATH:
+  PATH_DATA: './dataset/'
+  PATH_DATABASE: './database/'
+ NAME:
+  NAME_DATABASE: 'unit_economy.sqlite'
+  NAME_DATA: 'ecommerce_data.csv'
+

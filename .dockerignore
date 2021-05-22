@@ -11,3 +11,4 @@ Makefile
 etl_main.py
 README.md
 .gitignore
+.git

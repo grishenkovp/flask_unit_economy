@@ -3,3 +3,4 @@ venv
 __pycache__
 sql/__pycache__
 etl/__pycache__
+.git

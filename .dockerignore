@@ -1,0 +1,13 @@
+dataset
+etl
+.idea
+venv
+__pycache__
+sql/__pycache__
+.dockerignore
+docker-compose.yml
+Dockerfile
+Makefile
+etl_main.py
+README.md
+.gitignore
